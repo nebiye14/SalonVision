@@ -1,0 +1,170 @@
+
+.bildSlider{
+	height: 900px;
+	
+}
+
+body{
+	
+	padding-top: 50px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+
+.uberuns{
+	background-color: #f2f2f2;
+	padding-top: 5px;
+}
+
+a{
+	text-decoration:none;
+	text-:white;
+}
+.klammer{
+	border:none;
+	border-top: 3px solid #343a40;
+	max-width: 250px;
+	margin:25px auto;
+}
+.igrau{
+	color:#343a40;
+	position:relative; 
+	top:-62px;
+	font-size: 53px;
+	border:10px solid #f2f2f2;
+	background-color: #f2f2f2;
+}
+
+.iweiss{
+	color:#343a40;
+	position:relative; 
+	top:-62px;
+	font-size: 53px;
+	border:10px solid white;
+	background-color: white;
+}
+
+.teamCard:hover{
+	opacity:0.8;
+
+}
+
+.lieferant{
+	background-color: #f2f2f2;
+
+}
+
+.figure:hover{
+	opacity: 0.8;
+}
+
+
+
+/* FallStudie start */
+.h3p{
+	font-size: 32px;
+	font-weight: 500;
+}
+#fallStudie{
+	margin-top: 100px;
+	background-color: white;
+	line-height: 28px;
+	height: 1000px;
+}
+
+.ikon{
+	font-size: 50px;
+}
+
+.fallPlatz{
+	background-color: #f4f5f9;;
+	margin-top:40px;
+	margin-right: -70px;
+	z-index: 100;
+	padding:40px;
+	position:relative;
+	min-height: 580px;
+}
+
+/* Fallstudie ende*/
+
+/* Portfolio start */
+
+#portfolio .col-md-3 {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+#portfolio h4{
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#portfolio .fa{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#portfolio p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 100px;
+}
+
+.bildContainer{
+	position: relative;
+	cursor:pointer;
+}
+
+.bildOverlay{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #90bad3;  /*1886c7*/
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.bildContainer:hover .bildOverlay {
+	opacity: .7;
+}
+
+.bildText{
+	color: white;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+/* Portfolio ende  */
+
+
+.kontakt{
+	background-color: #f2f2f2;
+}
+
+
+
+@media (max-width:1000px) {
+  .fallImage{
+  display:none;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+

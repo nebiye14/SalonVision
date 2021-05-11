@@ -1,0 +1,53 @@
+	body{
+		padding-top: 50px;
+		font-family: 'Raleway', sans-serif;
+		background-color:white;
+	}
+
+	img{
+		margin-top: 50px;
+	}
+
+	.r-bild{
+		border-radius: 10px;
+		border: 2px solid rgb(151, 148, 148);
+		box-shadow:3px 3px 4px rgb(128, 123, 123) ;
+	}
+	#termin{
+		height: 1000px;
+	}
+	#zeit{	
+		border:1px solid red;
+		height: 35px;
+	}
+
+	#dienst{
+		border:1px solid red;
+		height: 35px;
+	}
+
+	#marbeiter{
+		border:1px solid red;
+		height: 35px;
+	}
+
+	#schicken{
+		width: 50%;
+		border:1px solid red;
+		height: 30px;
+		text-align: center;
+		border-radius: 4px;
+	
+	}
+	
+	.center{
+		margin-top: 180px;
+		margin-left: 50px;
+	}
+
+	@media (max-width:770px) {
+
+		#terminfooter{
+			padding-top:770px;
+		}
+	}

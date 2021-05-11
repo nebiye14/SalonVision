@@ -1,0 +1,10 @@
+#zahlungfooter{
+	padding-top: 200px;
+}
+
+@media (max-width:770px) {
+
+		#zahlungfooter{
+			padding-top:770px;
+		}
+	}

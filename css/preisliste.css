@@ -1,0 +1,26 @@
+body{
+	padding-top: 50px;
+	font-family: 'Raleway', sans-serif;
+    background-color:#f2f2f2;
+}
+
+.klammer{
+	border:none;
+	border-top: 3px solid #343a40;
+	max-width: 250px;
+	margin:25px auto;
+}
+.igrau{
+	color:#343a40;
+	position:relative; 
+	top:-62px;
+	font-size: 53px;
+	border:10px solid #f2f2f2;  /* #f4f5f9;*/
+	background-color: #f2f2f2;
+}
+.pl{
+    font-size: 32px;
+    font-weight: 400;
+    color: #343a34;   
+}
+
